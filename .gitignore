@@ -1,0 +1,12 @@
+# Browser / OS
+.DS_Store
+Thumbs.db
+
+# Workspace / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local data (if you want to keep your personal links private)
+# js/links.js
