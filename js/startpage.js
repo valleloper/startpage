@@ -1,8 +1,3 @@
-/**
- * Apple-Style Dashboard Core
- * Focus: Stability, Localization, Persistence
- */
-
 // --- Global State ---
 let currentData = null;
 let isEditMode = false;
@@ -543,13 +538,3 @@ $(document).ready(() => {
     });
     $('#search-clear').on('click', () => $('#search-input').val('').trigger('input').focus());
 });
-
-/**
- * Developer Verification Checklist:
- * 1. Modals: Open "Edit Username", press Enter. Does it save? Press Esc. Does it close?
- * 2. Favorites: "+" button ONLY visible in Edit Mode?
- * 3. Search: Type a query. Empty panels disappear?
- * 4. Drag & Drop: Move section from Column 1 to Column 2. Does it stay there after reload?
- * 5. Clock: Shows "Samstag, 7. März" style label?
- * 6. Weather: Shows "City, CountryCode"? Only fetches every 30 mins (check localStorage last-weather-temp)?
- */
