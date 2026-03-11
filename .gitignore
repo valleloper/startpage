@@ -8,5 +8,7 @@ Thumbs.db
 *.swp
 *.swo
 
-# Local data (if you want to keep your personal links private)
-# js/links.js
+# Favicons (keep app and default icon)
+img/*.ico
+!img/default.ico
+
