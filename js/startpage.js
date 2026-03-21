@@ -15,12 +15,16 @@ const uiTexts = {
         favs: "Favoriten", done: "Fertig", editBtn: "Bearbeiten", delConfirm: "Wirklich löschen?",
         addCat: "Kategorie hinzufügen", addSec: "Sektion hinzufügen", addLink: "Link hinzufügen",
         save: "Speichern", cancel: "Abbrechen", name: "Name", url: "URL", color: "Farbe", title: "Titel",
-        editGreet: "Begrüßungen bearbeiten", uiScale: "Skalierung", themeEditor: "Themes",
+        editGreet: "Zeiten bearbeiten", uiScale: "Skalierung", themeEditor: "Themes",
         bg: "Hintergrund", text: "Schrift", accent: "Akzent", card: "Karten", border: "Rahmen",
         editUser: "Benutzername ändern", topBg: "Header BG", time: "Zeit", weather: "Wetter",
         editLoc: "Standort ändern", locLabel: "Stadt eingeben", headerBg: "Header Hintergrund",
         searchPlaceholder: "Suchen...", noColsErr: "Keine Spalten vorhanden!",
-        syncDesc: "Schreibt alle Änderungen direkt in die links.js Datei."
+        syncDesc: "Schreibt alle Änderungen direkt in die links.js Datei.",
+        reloadFile: "Aus Datei laden", iconPath: "Icon Pfad (Optional)",
+        toastUpdate: "Konfigurationsdatei aktualisiert.", toastKeep: "Aktuelle behalten",
+        greetMode: "Begrüßungstyp", showUser: "Benutzername anzeigen",
+        gDynamic: "Zeitbasiert", gStatic: "Statisch", gNone: "Versteckt"
     },
     'en': {
         settings: "Settings", theme: "Theme", lang: "Language", newtab: "Open in new tab",
@@ -28,12 +32,16 @@ const uiTexts = {
         favs: "Favorites", done: "Done", editBtn: "Edit", delConfirm: "Really delete?",
         addCat: "Add Category", addSec: "Add Section", addLink: "Add Link",
         save: "Save", cancel: "Cancel", name: "Name", url: "URL", color: "Color", title: "Title",
-        editGreet: "Edit Greetings", uiScale: "UI Scale", themeEditor: "Themes",
+        editGreet: "Edit Times", uiScale: "UI Scale", themeEditor: "Themes",
         bg: "Background", text: "Text", accent: "Accent", card: "Card", border: "Border",
         editUser: "Change Username", topBg: "Header BG", time: "Time", weather: "Weather",
         editLoc: "Change Location", locLabel: "Enter City", headerBg: "Header Background",
         searchPlaceholder: "Search...", noColsErr: "No columns available!",
-        syncDesc: "Writes all changes directly to the links.js file."
+        syncDesc: "Writes all changes directly to the links.js file.",
+        reloadFile: "Load from File", iconPath: "Icon Path (Optional)",
+        toastUpdate: "Configuration file updated.", toastKeep: "Keep Current",
+        greetMode: "Greeting Mode", showUser: "Show Username",
+        gDynamic: "Time-based", gStatic: "Static", gNone: "Hidden"
     },
     'es': {
         settings: "Ajustes", theme: "Tema", lang: "Idioma", newtab: "Abrir en nueva pestaña",
@@ -41,12 +49,16 @@ const uiTexts = {
         favs: "Favoritos", done: "Hecho", editBtn: "Editar", delConfirm: "¿Realmente eliminar?",
         addCat: "Añadir categoría", addSec: "Añadir sección", addLink: "Añadir enlace",
         save: "Guardar", cancel: "Cancelar", name: "Nombre", url: "URL", color: "Color", title: "Título",
-        editGreet: "Editar saludos", uiScale: "Escala de interfaz", themeEditor: "Temas",
+        editGreet: "Editar Horas", uiScale: "Escala de interfaz", themeEditor: "Temas",
         bg: "Fondo", text: "Texto", accent: "Acento", card: "Tarjeta", border: "Borde",
         editUser: "Cambiar usuario", topBg: "Fondo cabecera", time: "Hora", weather: "Clima",
         editLoc: "Cambiar ubicación", locLabel: "Ciudad", headerBg: "Fondo de cabecera",
         searchPlaceholder: "Buscar...", noColsErr: "¡No hay columnas!",
-        syncDesc: "Escribe todos los cambios directamente en el archivo links.js."
+        syncDesc: "Escribe todos los cambios directamente en el archivo links.js.",
+        reloadFile: "Cargar desde archivo", iconPath: "Ruta del icono (Opcional)",
+        toastUpdate: "Archivo de configuración actualizado.", toastKeep: "Mantener actual",
+        greetMode: "Tipo de saludo", showUser: "Mostrar usuario",
+        gDynamic: "Basado en el tiempo", gStatic: "Estático", gNone: "Oculto"
     },
     'it': {
         settings: "Impostazioni", theme: "Tema", lang: "Lingua", newtab: "Apri in nuova scheda",
@@ -54,12 +66,16 @@ const uiTexts = {
         favs: "Preferiti", done: "Fatto", editBtn: "Modifica", delConfirm: "Vuoi eliminare?",
         addCat: "Aggiungi categoria", addSec: "Aggiungi sezione", addLink: "Aggiungi link",
         save: "Salva", cancel: "Annulla", name: "Nome", url: "URL", color: "Colore", title: "Titolo",
-        editGreet: "Modifica saluti", uiScale: "Scala UI", themeEditor: "Temi",
+        editGreet: "Modifica Orari", uiScale: "Scala UI", themeEditor: "Temi",
         bg: "Sfondo", text: "Testo", accent: "Accento", card: "Scheda", border: "Bordo",
         editUser: "Cambia utente", topBg: "Sfondo intestazione", time: "Ora", weather: "Meteo",
         editLoc: "Cambia posizione", locLabel: "Città", headerBg: "Sfondo intestazione",
         searchPlaceholder: "Cerca...", noColsErr: "Nessuna colonna disponibile!",
-        syncDesc: "Scrive tutte le modifiche direttamente nel file links.js."
+        syncDesc: "Scrive tutte le modifiche direttamente nel file links.js.",
+        reloadFile: "Carica da file", iconPath: "Percorso icona (Opzionale)",
+        toastUpdate: "File di configurazione aggiornato.", toastKeep: "Mantieni attuale",
+        greetMode: "Tipo di saluto", showUser: "Mostra utente",
+        gDynamic: "Basato sul tempo", gStatic: "Statico", gNone: "Nascosto"
     }
 };
 
@@ -90,8 +106,10 @@ const getContrastYIQ = (hex) => {
     return ((r*299)+(g*587)+(b*114))/1000 >= 128 ? 'black' : 'white';
 };
 const getHighestIndex = (map, hr) => {
-    let res = 0;
-    Object.keys(map).map(Number).sort((a,b)=>a-b).forEach(h => { if(hr >= h) res = h; });
+    const keys = Object.keys(map).map(Number).sort((a,b)=>a-b);
+    if (!keys.length) return null;
+    let res = keys[keys.length - 1]; // Default to highest (wrap around for early morning)
+    keys.forEach(h => { if(hr >= h) res = h; });
     return res;
 };
 const showToast = (msg) => {
@@ -133,6 +151,11 @@ function closeModal() {
 }
 
 // --- Data Core ---
+/**
+ * Sanitizes the currentData object to ensure structural integrity.
+ * Removes empty links, empty columns, and sections without titles.
+ * Also migrates legacy widget formats into the current array structure.
+ */
 function cleanData() {
     if(!currentData) return;
     currentData.shortLinks = (currentData.shortLinks || []).filter(l => l?.url);
@@ -148,22 +171,42 @@ function cleanData() {
     }
 }
 
+/**
+ * Commits the current in-memory state (currentData) to the browser's localStorage.
+ * Updates the lastUpdated timestamp to trigger cross-tab/reload sync checks.
+ * Re-renders the UI automatically after saving.
+ */
 async function saveData() {
     cleanData();
+    currentData.lastUpdated = new Date().toISOString();
     localStorage.setItem('startpage_links', JSON.stringify(currentData));
     renderUI();
 }
 
+/**
+ * Attempts to permanently save changes to the physical 'js/links.js' file 
+ * using the modern File System Access API. 
+ * Falls back to a standard file download (Blob) if the API is unsupported.
+ */
 async function syncToFile() {
     try {
         const lang = currentData.settings.language || 'de';
         if(!window.showSaveFilePicker) throw new Error();
         if(!fileHandle) fileHandle = await window.showSaveFilePicker({ suggestedName: 'links.js', types: [{ description: 'JS File', accept: {'text/javascript':['.js']}}] });
         const w = await fileHandle.createWritable();
+        
+        // Ensure lastUpdated is fresh before syncing to file
+        currentData.lastUpdated = new Date().toISOString();
+        
         await w.write(`const LINKS_DATA = ${JSON.stringify(currentData, null, 2)};`);
         await w.close();
+        
+        // Update localStorage as well to stay in sync
+        localStorage.setItem('startpage_links', JSON.stringify(currentData));
+        
         showToast(uiTexts[lang].update + "!");
     } catch(e) {
+        currentData.lastUpdated = new Date().toISOString();
         const blob = new Blob([`const LINKS_DATA = ${JSON.stringify(currentData, null, 2)};`], {type:'text/javascript'});
         const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'links.js'; a.click();
     }
@@ -181,6 +224,10 @@ function updateThemeDropdown() {
     $('#edit-theme-btn, #delete-theme-btn').toggle(!builtInThemes[id]);
 }
 
+/**
+ * Applies a specific theme ID to the document root variables.
+ * Also dynamically calculates an appropriate input background based on contrast.
+ */
 function applyTheme(id) {
     const t = builtInThemes[id] || (currentData.settings.customThemes?.[id]) || builtInThemes['Light'];
     const r = document.documentElement;
@@ -219,6 +266,7 @@ function translateUI() {
     $('.ui-settings-title').text(t.settings); $('.ui-label-theme').text(t.theme);
     $('.ui-label-lang').text(t.lang); $('.ui-label-newtab').text(t.newtab);
     $('.ui-label-backup').text(t.persistence); $('#export-btn').text(t.update);
+    $('#reload-file-btn').text(t.reloadFile);
     $('.persistence-desc').text(t.syncDesc);
     $('.ui-label-favorites').text(t.favs); $('#modal-save').text(t.save);
     $('#modal-cancel').text(t.cancel); $('#edit-greetings-btn').text(t.editGreet);
@@ -227,16 +275,45 @@ function translateUI() {
     $('#search-input').attr('placeholder', t.searchPlaceholder);
     $('#open-in-new-tab-setting').prop('checked', !!currentData.settings.openInNewTab);
     
+    // New Greetings Settings
+    $('.ui-label-greeting-mode').text(t.greetMode);
+    $('.ui-label-show-username').text(t.showUser);
+    $('#greeting-mode-setting option[value="dynamic"]').text(t.gDynamic);
+    $('#greeting-mode-setting option[value="static"]').text(t.gStatic);
+    $('#greeting-mode-setting option[value="none"]').text(t.gNone);
+    
+    $('#greeting-mode-setting').val(currentData.settings.greetingType || 'dynamic');
+    $('#show-username-setting').prop('checked', currentData.settings.showUserName !== false);
+    $('#static-greeting-input').val(currentData.settings.staticGreeting || '');
+    $('#static-greeting-input').toggleClass('hidden', (currentData.settings.greetingType || 'dynamic') !== 'static');
+    $('#edit-greetings-btn').toggleClass('hidden', (currentData.settings.greetingType || 'dynamic') !== 'dynamic');
+    
     $('.lang-flag-btn').removeClass('btn-primary').addClass('btn-light');
     $(`.lang-flag-btn[data-lang="${lang}"]`).removeClass('btn-light').addClass('btn-primary');
 }
 
+/**
+ * Calculates and updates the greeting text and username display based on user settings.
+ * Supports dynamic (time-based), static, and hidden greeting modes.
+ */
 function setWelcome() {
-    const lang = currentData.settings.language || 'de';
-    const map = currentData.settings.greetings?.[lang] || defaultGreetings[lang] || defaultGreetings['en'];
-    const hr = new Date().getHours();
-    $('#greeting_text').text(map[getHighestIndex(map, hr)] || "Hello");
-    $('#user_name_text').text(currentData.settings.userName ? " " + currentData.settings.userName : "");
+    const s = currentData.settings;
+    const type = s.greetingType || 'dynamic';
+    const showName = s.showUserName !== false;
+    
+    let greeting = "";
+    if (type === 'dynamic') {
+        const lang = s.language || 'de';
+        const map = s.greetings?.[lang] || defaultGreetings[lang] || defaultGreetings['en'];
+        const hr = new Date().getHours();
+        const index = getHighestIndex(map, hr);
+        greeting = index !== null && map[index] ? map[index] : "Hello";
+    } else if (type === 'static') {
+        greeting = s.staticGreeting || "Welcome";
+    }
+    
+    $('#greeting_text').text(greeting);
+    $('#user_name_text').text(showName && s.userName && greeting ? " " + s.userName : (!greeting && showName && s.userName ? s.userName : ""));
 }
 
 function setActivePanel(id) {
@@ -253,6 +330,11 @@ function showActivePanel() {
     else if(currentData.categories.length) setActivePanel(`#${currentData.categories[0].id}`);
 }
 
+/**
+ * Main rendering loop. Constructs the entire DOM layout for shortcuts,
+ * categories, sections, and links based on currentData. Also attaches
+ * edit controls if edit mode is active.
+ */
 function renderUI() {
     const $short = $('#short-links'), $btns = $('#category-buttons'), $panels = $('#panels-container');
     $short.empty(); $btns.empty(); $panels.empty();
@@ -267,7 +349,8 @@ function renderUI() {
 
     currentData.shortLinks.forEach((l, i) => {
         let del = isEditMode ? `<div style="position:absolute;top:-10px;right:0;background:rgba(0,0,0,0.6);padding:2px;border-radius:4px;z-index:10;"><button class="btn btn-sm btn-link p-0 text-warning" onclick="editShortLink(${i})">✎</button><button class="btn btn-sm btn-link p-0 text-danger" onclick="deleteShortLink(${i})">✕</button></div>` : '';
-        $short.append(`<div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3 relative">${del}<div class="d-flex align-items-center drag-handle"><img class="ico mr-2" src="img/${getDomain(l.url)}.ico" onerror="handleIconError(this, '${l.url}')"><a href="${l.url}" ${target}>${l.name}</a></div></div>`);
+        let iconSrc = l.icon ? l.icon : `img/${getDomain(l.url)}.ico`;
+        $short.append(`<div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3 relative">${del}<div class="d-flex align-items-center drag-handle"><img class="ico mr-2" src="${iconSrc}" onerror="handleIconError(this, '${l.url}')"><a href="${l.url}" ${target}>${l.name}</a></div></div>`);
     });
 
     currentData.categories.forEach((c, ci) => {
@@ -285,7 +368,8 @@ function renderUI() {
                 html += `<div class="section-item mb-3"><h6 class="font-weight-bold text-uppercase small drag-handle">${s.title}${sCtrl}</h6><ul class="list-unstyled links-list" data-cat-idx="${ci}" data-col-idx="${coli}" data-sec-idx="${si}" style="min-height:20px;">`;
                 s.links.forEach((l, li) => {
                     let lCtrl = isEditMode ? `<button class="btn btn-sm btn-link p-0 ml-2" onclick="editLink(${ci},${coli},${si},${li})">✎</button><button class="btn btn-sm btn-link p-0 text-danger" onclick="deleteLink(${ci},${coli},${si},${li})">✕</button>` : '';
-                    html += `<li class="mb-2 d-flex align-items-center drag-handle"><img src="img/${getDomain(l.url)}.ico" onerror="handleIconError(this, '${l.url}')" class="ico mr-2"><a href="${l.url}" ${target}>${l.name}</a>${lCtrl}</li>`;
+                    let iconSrc = l.icon ? l.icon : `img/${getDomain(l.url)}.ico`;
+                    html += `<li class="mb-2 d-flex align-items-center drag-handle"><img src="${iconSrc}" onerror="handleIconError(this, '${l.url}')" class="ico mr-2"><a href="${l.url}" ${target}>${l.name}</a>${lCtrl}</li>`;
                 });
                 html += `</ul></div>`;
             });
@@ -366,10 +450,28 @@ window.addSection = (ci) => {
         cols[idx].sections.push({title:r.t, links:[]}); saveData();
     });
 };
-window.addLink = (ci, coli, si) => { openModal('+ Link', [{id:'n', label:'Name'}, {id:'u', label:'URL'}], r => { if(r.n && r.u) { currentData.categories[ci].columns[coli].sections[si].links.push({name:r.n, url:r.u.includes('://')?r.u:'https://'+r.u}); saveData(); } }); };
+window.addLink = (ci, coli, si) => { 
+    const t = uiTexts[currentData.settings.language || 'de'];
+    openModal('+ Link', [{id:'n', label:t.name}, {id:'u', label:t.url}, {id:'i', label:t.iconPath}], r => { 
+        if(r.n && r.u) { 
+            let linkObj = {name:r.n, url:r.u.includes('://')?r.u:'https://'+r.u};
+            if (r.i) linkObj.icon = r.i;
+            currentData.categories[ci].columns[coli].sections[si].links.push(linkObj); 
+            saveData(); 
+        } 
+    }); 
+};
 window.editCategory = (i) => { const c = currentData.categories[i]; openModal('Edit', [{id:'n', label:'Name', value:c.category}, {id:'t', label:'Title', value:c.title}, {id:'c', label:'Color', type:'color', value:c.headerColor}], r => { c.category=r.n; c.title=r.t; c.headerColor=r.c; saveData(); }); };
 window.editSection = (ci, coli, si) => { const s = currentData.categories[ci].columns[coli].sections[si]; openModal('Edit', [{id:'t', label:'Title', value:s.title}], r => { s.title=r.t; saveData(); }); };
-window.editLink = (ci, coli, si, li) => { const l = currentData.categories[ci].columns[coli].sections[si].links[li]; openModal('Edit', [{id:'n', label:'Name', value:l.name}, {id:'u', label:'URL', value:l.url}], r => { l.name=r.n; l.url=r.u; saveData(); }); };
+window.editLink = (ci, coli, si, li) => { 
+    const l = currentData.categories[ci].columns[coli].sections[si].links[li]; 
+    const t = uiTexts[currentData.settings.language || 'de'];
+    openModal('Edit', [{id:'n', label:t.name, value:l.name}, {id:'u', label:t.url, value:l.url}, {id:'i', label:t.iconPath, value:l.icon || ''}], r => { 
+        l.name=r.n; l.url=r.u; 
+        if (r.i) l.icon = r.i; else delete l.icon;
+        saveData(); 
+    }); 
+};
 window.deleteCategory = (i) => { if(confirm('Delete?')) { currentData.categories.splice(i, 1); saveData(); } };
 window.deleteColumn = (ci, coli) => { if(confirm('Delete?')) { currentData.categories[ci].columns.splice(coli, 1); saveData(); } };
 window.deleteSection = (ci, coli, si) => { if(confirm('Delete?')) { currentData.categories[ci].columns[coli].sections.splice(si, 1); saveData(); } };
@@ -377,17 +479,25 @@ window.deleteLink = (ci, coli, si, li) => { if(confirm('Delete?')) { currentData
 window.addColumn = (ci) => { currentData.categories[ci].columns.push({sections:[]}); saveData(); };
 
 window.addShortLink = () => {
-    openModal('+ Favorite', [{id:'n', label:'Name'}, {id:'u', label:'URL'}], r => {
+    const t = uiTexts[currentData.settings.language || 'de'];
+    openModal('+ Favorite', [{id:'n', label:t.name}, {id:'u', label:t.url}, {id:'i', label:t.iconPath}], r => {
         if(r.n && r.u) {
-            currentData.shortLinks.push({ name: r.n, url: r.u.includes('://') ? r.u : 'https://' + r.u });
+            let linkObj = { name: r.n, url: r.u.includes('://') ? r.u : 'https://' + r.u };
+            if (r.i) linkObj.icon = r.i;
+            currentData.shortLinks.push(linkObj);
             saveData();
         }
     });
 };
 window.editShortLink = (i) => {
     const l = currentData.shortLinks[i];
-    openModal('Edit Favorite', [{id:'n', label:'Name', value:l.name}, {id:'u', label:'URL', value:l.url}], r => {
-        if(r.n && r.u) { l.name = r.n; l.url = r.u; saveData(); }
+    const t = uiTexts[currentData.settings.language || 'de'];
+    openModal('Edit Favorite', [{id:'n', label:t.name, value:l.name}, {id:'u', label:t.url, value:l.url}, {id:'i', label:t.iconPath, value:l.icon || ''}], r => {
+        if(r.n && r.u) { 
+            l.name = r.n; l.url = r.u; 
+            if (r.i) l.icon = r.i; else delete l.icon;
+            saveData(); 
+        }
     });
 };
 window.deleteShortLink = (i) => { if(confirm('Delete?')) { currentData.shortLinks.splice(i, 1); saveData(); } };
@@ -435,19 +545,65 @@ function cleanupSortables() { sortableInstances.forEach(i => i.destroy()); sorta
 
 // --- Initialization ---
 $(document).ready(() => {
-    const saved = localStorage.getItem('startpage_links');
-    currentData = saved ? JSON.parse(saved) : (typeof LINKS_DATA !== 'undefined' ? LINKS_DATA : null);
+    let saved = localStorage.getItem('startpage_links');
+    let needsUpdate = false;
+    let fileData = typeof LINKS_DATA !== 'undefined' ? LINKS_DATA : null;
+
+    if (saved && fileData) {
+        try {
+            const parsedSaved = JSON.parse(saved);
+            const savedTime = parsedSaved.lastUpdated ? new Date(parsedSaved.lastUpdated).getTime() : 0;
+            const fileTime = fileData.lastUpdated ? new Date(fileData.lastUpdated).getTime() : 0;
+            if (fileTime > savedTime) {
+                needsUpdate = true;
+            }
+        } catch(e) {}
+    }
+
+    currentData = saved ? JSON.parse(saved) : fileData;
     if(!currentData) return;
     
-    cleanData(); applyTheme(currentData.settings.theme); translateUI(); renderUI();
+    cleanData(); 
+    applyTheme(currentData.settings.theme); 
+    if (currentData.settings.uiScale) {
+        document.documentElement.style.setProperty('--ui-scale', currentData.settings.uiScale);
+        $('#ui-scale-setting').val(currentData.settings.uiScale);
+    }
+    translateUI(); 
+    renderUI();
+
+    if (needsUpdate) {
+        const lang = currentData.settings.language || 'de';
+        const t = uiTexts[lang] || uiTexts['en'];
+        const $t = $(`<div class="toast-msg d-flex align-items-center" style="animation: fadeInUp 0.3s ease;">
+            <span class="mr-3">${t.toastUpdate || 'Update available.'}</span>
+            <button class="btn btn-sm btn-primary mr-2" id="toast-reload-btn" style="border-radius: 10px;">${t.reloadFile || 'Reload'}</button>
+            <button class="btn btn-sm btn-outline-light" onclick="$(this).parent().fadeOut(300, function(){$(this).remove()})" style="border-radius: 10px;">✕</button>
+        </div>`);
+        $('#toast-container').append($t);
+        $('#toast-reload-btn').on('click', () => {
+            localStorage.removeItem('startpage_links');
+            location.reload();
+        });
+    }
 
     $('#open-menu, #close-menu, #menu-overlay').on('click', () => $('#settings-menu, #menu-overlay').toggleClass('active'));
     $(document).on('click', '.category-item', function() { setActivePanel($(this).data('target')); });
     
+    $('#reload-file-btn').on('click', () => {
+        if(confirm("Reload from file? Unsaved changes will be lost.")) {
+            localStorage.removeItem('startpage_links');
+            location.reload();
+        }
+    });
+
     $(document).on('click', '#modal-save', function() {
         if (activeModalCallback) {
             const res = {};
-            $('#modal-body input').each(function() { res[$(this).attr('id').replace('modal-field-', '')] = $(this).val(); });
+            $('#modal-body input').each(function() { 
+                const id = $(this).attr('id');
+                if (id) res[id.replace('modal-field-', '')] = $(this).val(); 
+            });
             activeModalCallback(res);
         }
         closeModal();
@@ -466,6 +622,17 @@ $(document).ready(() => {
 
     $('#ui-scale-setting').on('input', e => { document.documentElement.style.setProperty('--ui-scale', e.target.value); }).on('change', () => saveData());
     $('#open-in-new-tab-setting').on('change', e => { currentData.settings.openInNewTab = e.target.checked; saveData(); });
+    
+    // Greeting settings listeners
+    $('#greeting-mode-setting').on('change', e => { 
+        currentData.settings.greetingType = e.target.value; 
+        $('#static-greeting-input').toggleClass('hidden', e.target.value !== 'static');
+        $('#edit-greetings-btn').toggleClass('hidden', e.target.value !== 'dynamic');
+        saveData(); 
+    });
+    $('#show-username-setting').on('change', e => { currentData.settings.showUserName = e.target.checked; saveData(); });
+    $('#static-greeting-input').on('change', e => { currentData.settings.staticGreeting = e.target.value; saveData(); });
+
     $('#export-btn').on('click', syncToFile);
     $('#main-edit-btn').on('click', () => { isEditMode = !isEditMode; renderUI(); });
     $(document).on('click', '#add-short-link-btn', addShortLink);
@@ -500,14 +667,72 @@ $(document).ready(() => {
     
     $('#edit-greetings-btn').on('click', () => {
         const lang = currentData.settings.language || 'de';
-        const map = currentData.settings.greetings?.[lang] || defaultGreetings[lang] || defaultGreetings['en'];
-        const fields = Object.keys(map).sort((a,b)=>a-b).map(h => ({ id: `h${h}`, label: `${h}:00`, value: map[h] }));
-        openModal(uiTexts[lang].editGreet, fields, res => {
-            if(!currentData.settings.greetings) currentData.settings.greetings = {};
-            if(!currentData.settings.greetings[lang]) currentData.settings.greetings[lang] = {};
-            Object.keys(res).forEach(k => currentData.settings.greetings[lang][k.replace('h', '')] = res[k]);
-            saveData();
+        if(!currentData.settings.greetings) currentData.settings.greetings = JSON.parse(JSON.stringify(defaultGreetings));
+        
+        let allHours = new Set();
+        Object.keys(currentData.settings.greetings).forEach(l => {
+            Object.keys(currentData.settings.greetings[l]).forEach(h => allHours.add(Number(h)));
         });
+        let sortedHours = Array.from(allHours).sort((a,b)=>a-b);
+
+        openModal(uiTexts[lang].editGreet, [], () => {
+            const newGreetings = {};
+            const langsToSync = Object.keys(currentData.settings.greetings);
+            langsToSync.forEach(l => newGreetings[l] = {});
+            
+            $('#modal-body .greeting-row').each(function() {
+                const timeVal = $(this).find('.g-time').val();
+                const textVal = $(this).find('.g-text').val();
+                const origTime = $(this).data('orig-time');
+                
+                if (timeVal !== undefined && timeVal !== '' && !isNaN(timeVal)) {
+                    const h = parseInt(timeVal);
+                    if (h >= 0 && h <= 23) {
+                        const newText = textVal ? textVal.trim() : '';
+                        if (newText) newGreetings[lang][h] = newText;
+                        
+                        langsToSync.forEach(l => {
+                            if (l !== lang) {
+                                const oldText = origTime !== undefined ? currentData.settings.greetings[l]?.[origTime] : null;
+                                newGreetings[l][h] = newGreetings[l][h] || oldText || newText || 'Hello';
+                            }
+                        });
+                    }
+                }
+            });
+            currentData.settings.greetings = newGreetings;
+            saveData();
+            setWelcome();
+        });
+        
+        const $body = $('#modal-body');
+        $body.append(`<div id="greetings-list"></div>`);
+        const $list = $('#greetings-list');
+        
+        const addRow = (h = '', text = '', orig = '') => {
+            $list.append(`
+                <div class="row mb-2 greeting-row align-items-center" data-orig-time="${orig}">
+                    <div class="col-4">
+                        <input type="number" class="form-control g-time" value="${h}" placeholder="Hr (0-23)" min="0" max="23" style="border-radius:10px;">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control g-text" value="${text}" placeholder="Greeting text" style="border-radius:10px;">
+                    </div>
+                    <div class="col-2 text-right">
+                        <button type="button" class="btn btn-sm btn-outline-danger g-remove" style="border-radius:10px;">✕</button>
+                    </div>
+                </div>
+            `);
+        };
+        
+        sortedHours.forEach(h => {
+            addRow(h, currentData.settings.greetings[lang]?.[h] || '', h);
+        });
+        
+        $body.append(`<button type="button" class="btn btn-sm btn-outline-success mt-2 w-100" id="add-greeting-row" style="border-radius:10px;">+ Add Slot</button>`);
+        
+        $('#add-greeting-row').on('click', () => addRow());
+        $body.on('click', '.g-remove', function() { $(this).closest('.greeting-row').remove(); });
     });
 
     $("#search-input").on("input", e => {

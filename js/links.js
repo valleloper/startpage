@@ -1,14 +1,15 @@
 const LINKS_DATA = {
+  "lastUpdated": "2026-03-21T16:54:41.725Z",
   "shortLinks": [
     {
       "name": "GitHub",
       "url": "https://www.github.com/login",
-      "icon": "img/github.ico"
+      "icon": "img/github.com.ico"
     },
     {
       "name": "YouTube",
       "url": "https://www.youtube.com/",
-      "icon": "img/youtube.ico"
+      "icon": "img/youtube.com.ico"
     }
   ],
   "categories": [
@@ -56,7 +57,7 @@ const LINKS_DATA = {
     }
   ],
   "settings": {
-    "language": "de",
+    "language": "en",
     "userName": "Valleloper",
     "theme": "Forest",
     "greetings": {

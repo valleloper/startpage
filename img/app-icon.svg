@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <!-- Background Circle -->
+    <circle cx="256" cy="256" r="240" fill="#E8F5E9" stroke="#81C784" stroke-width="16"/>
+    
+    <!-- Treads (Dark Grey/Black) -->
+    <rect x="130" y="330" width="90" height="70" rx="20" fill="#2C3E50"/>
+    <rect x="292" y="330" width="90" height="70" rx="20" fill="#2C3E50"/>
+    
+    <!-- Inner Tread details -->
+    <circle cx="160" cy="365" r="15" fill="#546E7A"/>
+    <circle cx="200" cy="365" r="15" fill="#546E7A"/>
+    <circle cx="322" cy="365" r="15" fill="#546E7A"/>
+    <circle cx="362" cy="365" r="15" fill="#546E7A"/>
+    
+    <!-- Main Body (Brown/Grey tones) -->
+    <rect x="176" y="220" width="160" height="130" rx="16" fill="#8D6E63"/>
+    <rect x="190" y="240" width="132" height="40" rx="8" fill="#5D4037"/>
+    
+    <!-- Front Panel Details -->
+    <rect x="195" y="295" width="40" height="10" rx="4" fill="#E0E0E0"/>
+    <circle cx="255" cy="300" r="5" fill="#EF5350"/>
+    <circle cx="275" cy="300" r="5" fill="#FBC02D"/>
+    
+    <!-- Neck -->
+    <rect x="244" y="180" width="24" height="50" fill="#90A4AE"/>
+    <line x1="244" y1="200" x2="268" y2="200" stroke="#78909C" stroke-width="4"/>
+    <line x1="244" y1="215" x2="268" y2="215" stroke="#78909C" stroke-width="4"/>
+    
+    <!-- Eyes (Binocular style) -->
+    <!-- Left Eye -->
+    <path d="M 150 140 Q 150 110 180 110 L 230 110 Q 250 110 250 130 L 250 170 Q 250 190 230 190 L 170 190 Q 150 190 150 170 Z" fill="#616161"/>
+    <!-- Right Eye -->
+    <path d="M 262 130 Q 262 110 282 110 L 332 110 Q 362 110 362 140 L 362 170 Q 362 190 342 190 L 282 190 Q 262 190 262 170 Z" fill="#616161"/>
+    
+    <!-- Lenses -->
+    <circle cx="215" cy="150" r="22" fill="#B3E5FC"/>
+    <circle cx="297" cy="150" r="22" fill="#B3E5FC"/>
+    
+    <!-- Lens reflections & pupils -->
+    <circle cx="215" cy="150" r="10" fill="#263238"/>
+    <circle cx="297" cy="150" r="10" fill="#263238"/>
+    <circle cx="222" cy="144" r="5" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="304" cy="144" r="5" fill="#FFFFFF" opacity="0.9"/>
+</svg>
